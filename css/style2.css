@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(to top right, black, gray);
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    width: 100%;
+}
+
+h1 {
+    
+    font-family: 'TTTtangsbudaejjigaeB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    font-size: 50pt;
+    padding-left: 40px;
+    float: left;
+    margin-top: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.back img {
+    width: 250px;
+    height: 150px;
+    rotate: 180deg;
+    margin-top: -35px;
+    margin-left: -30px;
+    
+}
+.topline {
+    height: 10px;
+    
+    background: white;
+    margin-top: 45px;
+    
+}
+
+.back {
+    width: 350px;
+    height: 80px;
+
+    margin-left: 1150px;
+    margin-top: 40px;
+    
+    background: none;
+    border-radius: 20px 20px 20px 20px;
+}
+
+h2{
+    float: right;
+    font-size: 35pt;
+    margin-top: 7px;
+    margin-right: 7px;
+}
+
+
+.poster {
+    background: white;
+    width: 300px;
+    height: 400px;
+    margin: 50px;
+    
+}
+
+h3 {
+    color: white;
+    font-size: 20pt;
+    background: gray;
+    
+}
+#produce {
+    float: right;
+    margin-left: 500px;
+    margin-top: -450px;
+
+}
+

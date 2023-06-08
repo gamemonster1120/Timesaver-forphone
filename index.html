@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+    @font-face {
+        font-family: 'TTTtangsbudaejjigaeB';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/TTTtangsbudaejjigaeB.woff2') format('woff2');
+        font-weight: 700;
+        font-style: normal;
+    }
+    
+ 
+
+     </style>
+    
+    <title>mainpage</title>
+</head>
+<body>
+    <h1><a onclick="window.location.reload()">TIME SAVER</a></h1>
+    <div class="topline"></div>
+    <div class="menubar" >
+        <div id="container">
+            
+        <a href="/html/selected_runningtime(all).html"><div class="runningtime" id="30" onclick="handleClick30(event)">30m</div></a>
+        <a href="/html/selected_runningtime(1h).html"><div class="runningtime" id="1" onclick="handleClick1(event)">1h</div></a>
+        <a href="/html/selected_runningtime(2h).html"><div class="runningtime" id="2" onclick="handleClick2(event)">2h</div></a>
+        <a href="/html/selected_runningtime(3h).html"><div class="runningtime" id="3" onclick="handleClick3(event)">3h</div></a>
+        <a href="/html/selected_runningtime(4h).html"><div class="runningtime" id="4" onclick="handleClick4(event)">4h~</div></a>
+        
+
+            
+        
+        </div>
+    </div>
+    </div>
+    <h2 style="color: white; margin-left: 50px;">Movie Of The Week</h2>
+    <div id="movie">
+        <div class="div-1" onclick="m1"></div>
+        <div class="div-2" onclick="m2"></div>
+        <div class="div-3" onclick="m3"></div>
+        <div class="div-4" onclick="m4"></div>
+    </div>
+
+    
+
+    
+    <script src="/js/movie.js"></script>        
+    
+    <script src="/js/runningtime.js"></script>
+    
+       
+
+    
+</body>
+</html>
