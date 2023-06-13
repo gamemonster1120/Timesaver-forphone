@@ -1,3 +1,8 @@
+if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
+  window.location.href = "https://time-saver.netlify.app";
+}
+
+
 async function getRecentMovies() {
   const apiKey = '819c5ddc63e5a26fee42ba51760c998c'; // MoviesDB API 키를 입력해주세요.
   const response = await fetch(`https://api.themoviedb.org/3/movie/now_playing?api_key=${apiKey}`);
