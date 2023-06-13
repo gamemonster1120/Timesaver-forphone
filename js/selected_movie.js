@@ -83,3 +83,13 @@ function getMoviePoster() {
 }
 
 getMoviePoster();
+window.onload = function() {
+  var currentWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+  var currentHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+
+  var newWidth = currentWidth * 0.5;
+  var newHeight = currentHeight * 0.5;
+
+  document.body.style.width = newWidth + 'px';
+  document.body.style.height = newHeight + 'px';
+};
