@@ -2,8 +2,8 @@ body {
     background: linear-gradient(to top right, black, gray);
     
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    overflow-x: hidden;
+    background-size: 500% 500%;
+    
 }
 
 h1 {
