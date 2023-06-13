@@ -53,7 +53,7 @@ function getMoviePoster() {
       poster.style.filter = 'none';
       poster.alt = movieData.title;
       
-      poster.style.width = '1020px';
+      poster.style.width = '720px';
       poster.style.height = 'auto';
       posterDiv.appendChild(poster);
       poster.style.border ='1px solid white'
