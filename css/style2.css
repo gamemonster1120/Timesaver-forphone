@@ -2,7 +2,7 @@ body {
     background: linear-gradient(to top right, black, gray);
     
     background-repeat: no-repeat;
-    background-size: 400% 100%;
+    background-size: 300% 100%;
     overflow-y: hidden;
     overflow-x: hidden;
     
