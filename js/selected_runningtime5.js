@@ -24,7 +24,7 @@ axios.get(url)
       const div = document.createElement("div");
       div.className = "movie-poster";
       div.style.background = "white";
-      div.style.boxShadow = '20px -20px 5px black';
+      div.style.boxShadow = '10px -10px 5px black';
 
       
 

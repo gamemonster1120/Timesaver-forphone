@@ -7,7 +7,7 @@ async function getRecentMovies() {
     const recentMovies = data.results;
 
     // 최근에 개봉한 영화 4개 출력
-    const sortedMovies = recentMovies.sort((a, b) => b.release_date.localeCompare(a.release_date)).slice(0, 4);
+    const sortedMovies = recentMovies.sort((a, b) => b.release_date.localeCompare(a.release_date)).slice(0, 12);
     for (let i = 0; i < sortedMovies.length; i++) {
       const movie = sortedMovies[i];
       const div = document.querySelector(`.div-${i + 1}`);
@@ -18,9 +18,9 @@ async function getRecentMovies() {
       
       poster.alt = movie.title;
       poster.style.width = '100%';
-      poster.style.height = '45vh';
+      poster.style.height = '15vh';
       poster.style.border = '1px solid white';
-      poster.style.boxShadow = '20px -20px 5px black';
+      poster.style.boxShadow = '10px -10px 5px black';
       div.appendChild(poster);
 
       // div 요소 클릭 이벤트 추가
