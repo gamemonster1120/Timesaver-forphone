@@ -71,13 +71,13 @@ h2{
 h3 {
     color: white;
     font-size: 15pt;
-    background: gray;
+    text-shadow: 1px 1px 10px black;
     
 }
 #produce {
     float: right;
     
-    margin-top: -70%;
+    margin-top: -60%;
     width: 47%;
     margin-right: 5%;
 }
