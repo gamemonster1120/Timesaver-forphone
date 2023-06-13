@@ -1,7 +1,7 @@
 body {
     background: linear-gradient(to top right, black, gray);
     height:100vh;
-    width: auto;
+    
     background-repeat: no-repeat;
     background-size: 100% 100%;
     overflow-x: hidden;
@@ -61,7 +61,7 @@ h2{
 
 .poster {
     background: white;
-    width: 200px;
+    width: 45%;
     height: 300px;
     margin: 10px;
     margin-top: 50px;
@@ -77,6 +77,6 @@ h3 {
     float: right;
     margin-left: 250px;
     margin-top: -330px;
-    width: 230px;
+    width: 220px;
 }
 
