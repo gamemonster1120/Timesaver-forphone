@@ -1,7 +1,6 @@
 body {
     background: linear-gradient(to top right, black, gray);
-    height:0vh;
-    width: 120%;
+    
     background-repeat: no-repeat;
     background-size: 100% 100%;
     overflow-x: hidden;
@@ -62,7 +61,7 @@ h2{
 .poster {
     background: white;
     width: 40%;
-    height: 36vh;
+    height: 35vh;
     margin: 2%;
     margin-top: 15%;
 }
