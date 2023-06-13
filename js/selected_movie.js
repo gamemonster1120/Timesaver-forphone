@@ -47,7 +47,7 @@ function getMoviePoster() {
       posterDiv.appendChild(poster);
 
       // 배경 이미지 설정
-      document.body.style.backgroundImage = `url(https://image.tmdb.org/t/p/original${movieData.backdrop_path})`;
+      document.body.style.backgroundImage = `url(https://image.tmdb.org/t/p/w500${movieData.poster_path})`;
 
       // 포스터 blur 효과 제거
       poster.style.filter = 'none';
