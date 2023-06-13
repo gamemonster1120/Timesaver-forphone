@@ -2,7 +2,7 @@ body {
     background: linear-gradient(to top right, black, gray);
     
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% auto;
     overflow-y: hidden;
     overflow-x: hidden;
     
@@ -15,7 +15,7 @@ h1 {
     font-weight: bold;
     font-style: normal;
     color: white;
-    font-size: 75pt;
+    font-size: 35pt;
     padding-left: 10px;
     margin-top: 40px;
     text-shadow: 1px 1px 10px black;
@@ -62,8 +62,8 @@ h2{
 
 .poster {
     background: white;
-    width: 35.5vw;
-    height: 34vh;
+    width: 5vw;
+    height: 5vh;
     margin: 2%;
     margin-top: 15%;
 }
@@ -78,9 +78,9 @@ h3 {
     float: right;
     
     margin-top: -65%;
-    width: 150vw;
+    width: 40vw;
     
-    margin-right: -100px;
+    margin-right: -40px;
 
 }
 
