@@ -3,7 +3,7 @@ body {
     height:100vh;
     width: auto;
     background-repeat: no-repeat;
-    background-size: 370% auto;
+    background-size: 100% 100%;
     overflow-x: hidden;
 }
 
