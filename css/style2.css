@@ -5,6 +5,7 @@ body {
     background-repeat: no-repeat;
     overflow-x: hidden;
     animation: wave 10s linear infinite;
+    zoom:0%;
 }
 
 h1 {
@@ -76,7 +77,7 @@ h3 {
 #produce {
     float: right;
     
-    margin-top: -75%;
+    margin-top: -70%;
     width: 47%;
     margin-right: 5%;
 }
