@@ -52,7 +52,8 @@ function getMoviePoster() {
       // 포스터 blur 효과 제거
       poster.style.filter = 'none';
       poster.alt = movieData.title;
-      poster.style.maxWidth = '100%';
+      
+      poster.style.width = '1325px';
       poster.style.height = 'auto';
       posterDiv.appendChild(poster);
       poster.style.border ='1px solid white'
