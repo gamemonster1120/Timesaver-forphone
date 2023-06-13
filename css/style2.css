@@ -35,7 +35,7 @@ a {
 }
 .topline {
     height: 10px;
-    width: 500%;
+    width: 100%;
     background: white;
     margin-top: -100px;
     box-shadow: 1px 1px 10px black;
@@ -80,7 +80,7 @@ h3 {
     margin-top: -65%;
     width: 150vw;
     
-    margin-right: -500px;
+    margin-right: -100px;
 
 }
 
