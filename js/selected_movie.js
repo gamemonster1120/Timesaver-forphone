@@ -47,13 +47,12 @@ function getMoviePoster() {
       posterDiv.appendChild(poster);
 
       // 배경 이미지 설정
-      document.body.style.backgroundImage = `url(https://image.tmdb.org/t/p/w500${movieData.poster_path})`;
+      document.body.style.backgroundImage = `url(https://image.tmdb.org/t/p/original${movieData.backdrop_path})`;
 
       // 포스터 blur 효과 제거
       poster.style.filter = 'none';
       poster.alt = movieData.title;
-      
-      poster.style.width = '5vw';
+      poster.style.maxWidth = '100%';
       poster.style.height = 'auto';
       posterDiv.appendChild(poster);
       poster.style.border ='1px solid white'
@@ -83,13 +82,3 @@ function getMoviePoster() {
 }
 
 getMoviePoster();
-window.onload = function() {
-  var currentWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-  var currentHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-
-  var newWidth = currentWidth * 0.5;
-  var newHeight = currentHeight * 0.5;
-
-  document.body.style.width = newWidth + 'px';
-  document.body.style.height = newHeight + 'px';
-};
