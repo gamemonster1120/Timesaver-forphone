@@ -1,13 +1,31 @@
 
- 
+@keyframes wave {
+  0% {
+    background-position: 0 0;
+  }
+  45% {
+    background-position: 100% 0;
+  }
+  50% {
+    background-position: 100% 0;
+  }
+  55% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+} 
 body {
-    background: linear-gradient(to top right, black, gray);
+    background: linear-gradient(to top right, black, white);
     height: 100vh;
-    
+    background-size: 500% auto;
     background-repeat: no-repeat;
     overflow-y: hidden;
+    animation: wave 10s linear infinite;
     
 }
+
 
 a {
   text-decoration: none;
@@ -51,7 +69,8 @@ h1 {
     height: 50px;
     margin: 1%;
     margin-top: 1.3%;
-    font-size: 25pt;
+    font-size: 20pt;
+    padding-top: 2%;
     text-align: center;
     font-weight: bold;
     border-radius: 100px 100px 100px 100px;

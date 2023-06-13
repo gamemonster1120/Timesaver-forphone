@@ -1,12 +1,29 @@
-body {
-    background: linear-gradient(to top right, black, gray);
-    background-size: cover;
-    
-    height: 950px;
-    background-repeat: no-repeat;
-    
-    
-}
+@keyframes wave {
+    0% {
+      background-position: 0 0;
+    }
+    45% {
+      background-position: 100% 0;
+    }
+    50% {
+      background-position: 100% 0;
+    }
+    55% {
+      background-position: 100% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  } 
+  body {
+      background: linear-gradient(to top right, black, white);
+      height: 125vh;
+      background-size: 500% auto;
+      background-repeat: no-repeat;
+      
+      animation: wave 10s linear infinite;
+      
+  }
 
 
 
@@ -47,7 +64,8 @@ h1 a {
     height: 50px;
     margin: 1%;
     margin-top: 1.3%;
-    font-size: 25pt;
+    font-size: 20pt;
+    padding-top: 2%;
     text-align: center;
     font-weight: bold;
     border-radius: 100px 100px 100px 100px;
@@ -71,8 +89,8 @@ a {
     height: 15vh;
     float: left;
     margin-top: 5%;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 3%;
+    margin-right: 3%;
 
   }
 
@@ -82,7 +100,8 @@ a {
   }
 
   #movie-container {
-    padding-top: 15%;
+    padding-top: 20%;
+    padding-left: 5%;
   }
 
 
