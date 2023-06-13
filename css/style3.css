@@ -18,7 +18,7 @@
   body {
       background: linear-gradient(to top right, black, white);
       height: 125vh;
-      background-size: 100% auto;
+      background-size: 500% auto;
       background-repeat: no-repeat;
       
       animation: wave 10s linear infinite;
