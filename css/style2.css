@@ -1,9 +1,9 @@
 body {
     background: linear-gradient(to top right, black, gray);
     height:100vh;
-    width: auto;
+    width: 100%;
     background-repeat: no-repeat;
-    
+    background-size: 100% 100%;
     overflow-x: hidden;
 }
 
@@ -61,10 +61,10 @@ h2{
 
 .poster {
     background: white;
-    width: 200px;
-    height: 300px;
-    margin: 10px;
-    margin-top: 50px;
+    width: 40%;
+    height: 36vh;
+    margin: 2%;
+    margin-top: 15%;
 }
 
 h3 {
@@ -75,8 +75,9 @@ h3 {
 }
 #produce {
     float: right;
-    margin-left: 250px;
-    margin-top: -330px;
-    width: 230px;
+    
+    margin-top: -65%;
+    width: 47%;
+    margin-right: 5%;
 }
 
