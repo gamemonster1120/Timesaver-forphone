@@ -1,6 +1,34 @@
 if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
   window.location.href = "https://time-saver.netlify.app";
 }
+function handleKeyPress(event) {
+  if (event.key === "Enter") {
+      searchMovies();
+  }
+}
+
+async function searchMovies() {
+  var searchInput = document.getElementById("searchInput");
+  var searchTerm = searchInput.value;
+
+  try {
+      // movieDB API 호출을 위한 요청 URL 및 인증 정보 등 설정
+      var apiKey = "819c5ddc63e5a26fee42ba51760c998c";
+      var apiUrl = `https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${encodeURIComponent(searchTerm)}`;
+
+      // movieDB API 호출 및 검색 결과 처리
+      var response = await axios.get(apiUrl);
+      var movies = response.data.results;
+
+      // 영화 목록에서 각 영화의 id 값을 추출하여 배열로 만듦
+      var movieIds = movies.map(movie => movie.id);
+
+      // 추출한 영화 id 배열을 search.html 페이지로 전달
+      window.location.href = "/html/search.html?movieIds=" + encodeURIComponent(JSON.stringify(movieIds));
+  } catch (error) {
+      console.error("An error occurred during movie search:", error);
+  }
+}
 
 
 async function getRecentMovies() {

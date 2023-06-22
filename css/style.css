@@ -117,6 +117,19 @@ h1 {
   }
 
 
+#searchInput {
+  border-radius: 20px 20px 20px 20px;
+  height: 30px;
+  margin-bottom: 10px;
+  width: 400px;
+}
+
+#search {
+  width: 20px;
+  height: 20px;
+  margin-bottom: -5px;
+}
+
 
 
 
