@@ -1,6 +1,6 @@
-if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
-  window.location.href = "https://time-saver.netlify.app";
-}
+// if (!(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent))) {
+//   window.location.href = "https://time-saver.netlify.app";
+// }
 function handleKeyPress(event) {
   if (event.key === "Enter") {
       searchMovies();
