@@ -130,21 +130,21 @@ h1 {
   margin-bottom: -5px;
 }
 
+#button {
+  width: 50px;
+  margin-left:5px;
+  margin-top: 15px;
+  
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+h2 {
+  float: left;
+}
+h3 {
+  float: left;
+  font-size: 10pt;
+  margin-left: 20px;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  color: white;
+}
